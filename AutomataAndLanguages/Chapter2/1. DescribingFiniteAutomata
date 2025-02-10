@@ -21,9 +21,11 @@ c.  0* means that zero or more 0s will be accepted.
         2. Read 0 and stay in q0
         3. Read 0 and stay in q0
         4. Read 1 and move to q2 (accepting state) = Accepted
+        (Others include "1", "0", "", "0000000001", "000000")
     Not Accepted:
         "011"
         1. Start at q0
         2. Read 0 and stay in q0
         3. Read 1 and move to q2
         4. Read 1 - no transition defined going from q2 = Not Accepted
+        (Others include "10", "0101", "010", "100")
