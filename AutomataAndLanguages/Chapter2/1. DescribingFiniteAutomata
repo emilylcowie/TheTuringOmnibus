@@ -6,6 +6,7 @@
 
 a.  (ab)* means that zero or more "ab" pairs will be accepted in the language.
     (a+b)* means that after the "ab" pairs, zero or more "a"s or "b"s will be accepted.
+    So will it accept any combination of a and b??
 
 b.  This accepts strings that are either 0 or 1.
     Not accepted:
