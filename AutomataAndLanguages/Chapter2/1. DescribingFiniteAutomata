@@ -4,15 +4,19 @@
     c. 0* + 1 (a finite automation may have more than one accepting state) "
 
 
+
 a.  (ab)* means that zero or more "ab" pairs will be accepted in the language.
     (a+b)* means that after the "ab" pairs, zero or more "a"s or "b"s will be accepted.
     So will it accept any combination of a and b??
+    If so, is this not the same as just (a+b)*??
+
 
 b.  This accepts strings that are either 0 or 1.
     Not accepted:
         "00" 
         1. Read '0', move to q1
         2. Read '0', no transition defined from q1 = Not accepted
+
     
 c.  0* means that zero or more 0s will be accepted.
     1 means that the prior must end with a single 1 to be accepted.
