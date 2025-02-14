@@ -3,10 +3,16 @@
     b. 0 + 1
     c. 0* + 1 (a finite automation may have more than one accepting state) "
 
-
+Regular Expressions:
+- Members side by side must appear in that sequence
+- | Separates alternatives(or)
+- * Indicates 0 or more of tyhe preceding element
+- + Indicates there are one or more of the preceding element
+- ? Indicates there are 0 or 1 of the preceding element
+- () Used to identify groupings
 
 a.  (ab)* means that zero or more "ab" pairs will be accepted in the language.
-    (a+b)* means that after the "ab" pairs, zero or more "a"s or "b"s will be accepted.
+    (a+b)* means that after the "ab" pairs, one or more 'A' then one 'b' follows to be accepted.
     So will it accept any combination of a and b??
     If so, is this not the same as just (a+b)*??
 
