@@ -1,0 +1,1 @@
+"It will be evident in Chapter 13 that regular languages are precicely those accepted by finite automata. Given this fact, show that if the language L is accepted by some finite automatonz then L^-1 is also accepted by some finite automation; L^-1 consists of all words of L reversed. 
